@@ -8,7 +8,7 @@ public class LargestSubsequenceMain {
 		try {
 			LargestSubsequence largestSubsequence = new LargestSubsequence();
 			System.out.println("Enter the limit");
-			int limit = sc.nextInt();
+			int limit = (int) sc.nextFloat();
 			ArrayList<Integer> arrayList = largestSubsequence.GenerateSequence(limit);
 			largestSubsequence.PrintArrayList(arrayList);
 			largestSubsequence.findLargestSubsequence(arrayList);
